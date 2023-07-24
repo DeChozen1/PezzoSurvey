@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif; /* Sets the font family for the entire page to Arial or a similar sans-serif font */
+  background-color: #ffbfd8; /* Sets the background color of the body to a light gray (#f2f2f2) */
+  text-align: center; /* Aligns the text content in the body to the center */
+
+}
+
+.container1 {
+  margin-top: 5px; /* Adds a top margin of 50 pixels to the container element */
+  max-width: 768px; /* Sets the maximum width of the container to 600 pixels */
+  background-color: #ffbfd8; /* Sets the background color of the container to white (#fff) */
+  border-radius: 5px; /* Rounds the corners of the container by 5 pixels */
+  padding: 20px; /* Adds 30 pixels of padding inside the container */
+  display: inline-table; /* Displays the container as an inline block element */
+ 
+}
+
+
+.container {
+  margin-top: 5px; /* Adds a top margin of 50 pixels to the container element */
+  max-width: 600px; /* Sets the maximum width of the container to 600 pixels */
+  background-color: #fff; /* Sets the background color of the container to white (#fff) */
+  border-radius: 5px; /* Rounds the corners of the container by 5 pixels */
+  padding: 30px; /* Adds 30 pixels of padding inside the container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a box shadow effect with a slight blur and transparency */
+  display: inline-table; /* Displays the container as an inline block element */
+ 
+}
+
+form {
+  text-align: center; /* Aligns the text content in the form to the center */
+  justify-content: center;
+}
+
+form label {
+  display: block; /* Displays the label elements as block-level elements, making them appear on new lines */
+  margin-bottom: 10px; /* Adds a bottom margin of 10 pixels to the labels */
+  font-weight: bold; /* Sets the font weight of the labels to bold */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+  width: 100%; /* Sets the width of the text, email, and number input fields to 100% of their parent container */
+  padding: 10px; /* Adds 10 pixels of padding to the input fields */
+  border: 1px solid #ccc; /* Sets a 1-pixel solid border around the input fields with a light gray color (#ccc) */
+  border-radius: 4px; /* Rounds the corners of the input fields by 4 pixels */
+  margin-bottom: 20px; /* Adds a bottom margin of 20 pixels to the input fields */
+  box-sizing: border-box; /* Includes the border and padding in the total width of the input fields */
+  font-size: 16px; /* Sets the font size of the input fields to 16 pixels */
+}
+
+form input[type="file"] {
+  margin-bottom: 20px; /* Adds a bottom margin of 20 pixels to the file input field */
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50; /* Sets the background color of the submit button to a green color (#4CAF50) */
+  color: white; /* Sets the text color of the submit button to white */
+  padding: 12px 20px; /* Adds 12 pixels of padding on the top and bottom, and 20 pixels of padding on the left and right of the submit button */
+  border: none; /* Removes the border of the submit button */
+  border-radius: 4px; /* Rounds the corners of the submit button by 4 pixels */
+  cursor: pointer; /* Changes the mouse cursor to a pointer when hovering over the submit button */
+  font-size: 16px; /* Sets the font size of the submit button to 16 pixels */
+}
+
+.leaderboard {
+  margin-top: 50px; /* Adds a top margin of 50 pixels to the leaderboard element */
+}
+
+.leaderboard h2 {
+  margin-bottom: 20px; /* Adds a bottom margin of 20 pixels to the h2 heading within the leaderboard */
+  font-size: 24px; /* Sets the font size of the h2 heading within the leaderboard to 24 pixels */
+}
+
+table {
+  margin: 0 auto; /* Centers the table horizontally within its container by setting the left and right margins to auto */
+  border-collapse: collapse; /* Collapses the borders of the table cells to create a consistent appearance */
+  width: 100%; /* Sets the width of the table to 100% of its parent container */
+}
+
+table th,
+table td {
+  padding: 10px; /* Adds 10 pixels of padding to the table cells */
+  border-bottom: 1px solid #726e6e; /* Adds a 1-pixel solid border at the bottom of the table cells with a light gray color (#ddd) */
+  text-align: center; /* Aligns the text content within the table cells to the center */
+}
+
+table th {
+  background-color: #f1eaeafd; /* Sets the background color of the table header cells to a light gray color (#f2f2f2) */
+}
+
+header {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 20px;  /* Adds a top margin of 30 pixels to the header element */
+}
+
+header img {
+  max-width: 300px; /* Sets the maximum width of the header image to 200 pixels */
+  margin: 0 auto; /* Centers the header image horizontally within its container by setting the left and right margins to auto */
+  display: block; /* Sets the display of the header image to block, making it occupy its own line */
+}
+
+.image {
+  max-width: 200px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <title>Survey Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="pezzo.png" alt="Logo">
+    </header>
+    <div class="container1">
+        <p style="font-size: 24px;">We are looking for Singapore's favorite slice's biggest FAN!</p>
+        <p>How to Participate</p>
+        <p>Every slice of our delicious chicken rice pizza purchase earns you a point. Simply upload your receipt and the number of slices bought to see your name climb the leaderboard.</p>
+        <br>
+        <p>Stand to Win</p>
+        <p>The top Superfan will receive a surprise delivery straight to their doorstep. Picture the excitement as you receive a special delivery of chicken rice pizza from Pezzo, along with a certificate and other prizes to celebrate your status as our biggest fan. Your triumph will also be showcased on Pezzo's social media, and we'll even throw in Pezzo vouchers for you to enjoy.</p>
+    </div>
+    <div class="container">
+        <h1>Lets Get Started</h1>
+        <form action="/submit.php" id="survey-form" method="POST" enctype="multipart/form-data">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="slices">Number of Slices:</label>
+            <input type="number" id="slices" name="slices" required min="0" max="30">
+
+            <label for="receipt">Upload Image of Receipt:</label>
+            <input type="file" id="receipt" name="receipt" required accept="image/*">
+
+            <input type="submit" value="Submit">
+        </form>
+        <a href="https://docs.google.com/document/u/2/d/1KFQiJJtlmXk5IiW0tqdZyHAI3P9ULBfkiBpkMiqQvns/mobilebasic">Terms and Conditions</a>
+    </div>
+    <div class="leaderboard">
+        <h2>Leaderboard</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>S.N.</th>
+                <!-- th>Receipt</th-->
+                <th>Full Name</th>
+                <!-- th>Email</th-->
+                <th style="text-align: center">Number of Slices</th>
+                <th>Updated Date</th>
+            </tr>
+            </thead>
+            <tbody id="table-data">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
